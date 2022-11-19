@@ -1,0 +1,15 @@
+version: 3
+projects:
+
+- dir: .
+  workspace: staging
+  autoplan:
+    when_modified: ["*.tf"]
+    enabled: true
+    
+- dir: .
+  workspace: production
+  autoplan:
+    when_modified: ["*.tf"]
+    enabled: true
+

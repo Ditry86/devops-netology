@@ -1,0 +1,15 @@
+repos:
+ 
+- id: github.com/Ditry86/.*
+
+  allowed_overrides: [workflow]
+  allow_custom_workflows: true
+  delete_source_branch_on_merge: true
+  
+workflows:
+  default:
+    plan:
+      steps:
+      - init
+      - plan:
+          extra_args: ["-lock=false"]
