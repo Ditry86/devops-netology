@@ -41,7 +41,6 @@
     ```
     x := []int{48,96,86,68,57,82,63,70,37,34,83,27,19,97,9,17,}
     ```
-
 **Ответ:** [Задача 2](https://github.com/Ditry86/devops-netology/blob/master/07-terraform-05-golang/golang2/golang2.go)
 
 
