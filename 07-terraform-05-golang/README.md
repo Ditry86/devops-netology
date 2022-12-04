@@ -35,19 +35,19 @@
     }
     ```
 
-### **Ответ:** ####[Задача 1](https://github.com/Ditry86/devops-netology/blob/master/07-terraform-05-golang/golang1/golang1.go)
+### **Ответ:** #####[Задача 1](https://github.com/Ditry86/devops-netology/blob/master/07-terraform-05-golang/golang1/golang1.go)
 
 
-1. Напишите программу, которая найдет наименьший элемент в любом заданном списке, например:
+2. Напишите программу, которая найдет наименьший элемент в любом заданном списке, например:
     ```
     x := []int{48,96,86,68,57,82,63,70,37,34,83,27,19,97,9,17,}
     ```
 
-### **Ответ:** ####[Задача 2](https://github.com/Ditry86/devops-netology/blob/master/07-terraform-05-golang/golang2/golang2.go)
+### **Ответ:** #####[Задача 2](https://github.com/Ditry86/devops-netology/blob/master/07-terraform-05-golang/golang2/golang2.go)
 
-1. Напишите программу, которая выводит числа от 1 до 100, которые делятся на 3. То есть `(3, 6, 9, …)`.
+3. Напишите программу, которая выводит числа от 1 до 100, которые делятся на 3. То есть `(3, 6, 9, …)`.
 
-### **Ответ:** ####[Задача 2](https://github.com/Ditry86/devops-netology/blob/master/07-terraform-05-golang/golang3/golang3.go)
+### **Ответ:** #####[Задача 2](https://github.com/Ditry86/devops-netology/blob/master/07-terraform-05-golang/golang3/golang3.go)
 
 
 ## Задача 4. Протестировать код (не обязательно).
