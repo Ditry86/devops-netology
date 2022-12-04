@@ -34,7 +34,6 @@
         fmt.Println(output)    
     }
     ```
-
 **Ответ:** [Задача 1](https://github.com/Ditry86/devops-netology/blob/master/07-terraform-05-golang/golang1/golang1.go)
 
 
@@ -44,6 +43,7 @@
     ```
 
 **Ответ:** [Задача 2](https://github.com/Ditry86/devops-netology/blob/master/07-terraform-05-golang/golang2/golang2.go)
+
 
 3. Напишите программу, которая выводит числа от 1 до 100, которые делятся на 3. То есть `(3, 6, 9, …)`.
 
