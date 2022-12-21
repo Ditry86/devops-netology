@@ -74,7 +74,7 @@
 	QueueName *string `type:"string" required:"true"`
 ```
 
-3) В исходниках провайдера и API AWS не нашел не одной функции, либо выражения, фильтрующих вводимое имя для SQS очереди, кроме функции проверяющей имя созданной очереди на содержание в нем уникального ID и суффикса [(https://github.com/hashicorp/terraform-provider-aws/blob/5800b3a7431e7f74ba40ec00411be14d27757372/internal/create/naming.go#L30)](https://github.com/hashicorp/terraform-provider-aws/blob/5800b3a7431e7f74ba40ec00411be14d27757372/internal/create/naming.go#L30). Но в описании того же `CreateQueueInput` указаны ограничения по вводимым символам:
+в) В исходниках провайдера и API AWS не нашел не одной функции, либо выражения, фильтрующих вводимое имя для SQS очереди, кроме функции проверяющей имя созданной очереди на содержание в нем уникального ID и суффикса [(https://github.com/hashicorp/terraform-provider-aws/blob/5800b3a7431e7f74ba40ec00411be14d27757372/internal/create/naming.go#L30)](https://github.com/hashicorp/terraform-provider-aws/blob/5800b3a7431e7f74ba40ec00411be14d27757372/internal/create/naming.go#L30). Но в описании того же `CreateQueueInput` указаны ограничения по вводимым символам:
 
 ```
 //
