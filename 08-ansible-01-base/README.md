@@ -172,7 +172,7 @@ inventory/prod.yml:
 
 11. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь что факты `some_fact` для каждого из хостов определены из верных `group_vars`.
 
-## **Ответ:**
+### **Ответ:**
 
 ```
 ansible-playbook site.yml -i inventory/prod.yml --ask-vault-password
@@ -198,7 +198,7 @@ ubuntu                     : ok=3    changed=0    unreachable=0    failed=0    s
 
 ## **Ответ:**
 
-[My Ansible repo](https://github.com/Ditry86/ansible_study/tree/master)
+[My Ansible repo (master branch)](https://github.com/Ditry86/ansible_study/tree/master)
 
 
 ## Необязательная часть
@@ -209,6 +209,10 @@ ubuntu                     : ok=3    changed=0    unreachable=0    failed=0    s
 4. Добавьте новую группу хостов `fedora`, самостоятельно придумайте для неё переменную. В качестве образа можно использовать [этот](https://hub.docker.com/r/pycontribs/fedora).
 5. Напишите скрипт на bash: автоматизируйте поднятие необходимых контейнеров, запуск ansible-playbook и остановку контейнеров.
 6. Все изменения должны быть зафиксированы и отправлены в вашей личный репозиторий.
+
+## **Ответ:**
+
+[My Ansible repo](https://github.com/Ditry86/ansible_study)
 
 ---
 
